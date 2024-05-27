@@ -15,7 +15,7 @@ import java.io.IOException;
 public class Task2 {
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.out.println("В аргументе командной строки необходимо указать путь до файла messages.dat");
+            System.out.println("В аргументе командной строки. необходимо указать путь до файла messages.dat");
             return;
         }
         String filePath = args[0];
